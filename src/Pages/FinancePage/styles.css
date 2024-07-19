@@ -1,0 +1,16 @@
+.financePage{
+    padding: 40px 5%;
+    display: flex;
+
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 2fr));
+    gap: 20px;
+}
+
+.caixa1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

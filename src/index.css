@@ -1,0 +1,17 @@
+:root{
+  --color1: #13b459;
+  --black: #111111;
+  --white: #fafafa;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  transition: all ease .4s;
+}
+
+a{
+  text-decoration: none;
+}
