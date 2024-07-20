@@ -4,15 +4,21 @@ import React from "react"
 import TransactionForm from "../../Components/TransactionForm"
 import TransactionList from "../../Components/TransactionList"
 import CardTotal from "../../Components/CardTotal"
+import TransactionFilter from "../../Components/TransactionFilter"
 
 import "./styles.css" 
 
 export default function FinancePage(){
 
     const [transactions, setTransactions] = useState([]);
+    const [filter, setFilter] = useState('all');
 
     const addTransaction = (transaction) => {
         setTransactions([...transactions, transaction]);
+    };
+
+    const removeTransaction = (indexToRemove) => {
+        setTransactions(transactions.filter((_, index) => index !== indexToRemove));
     };
 
     return(
@@ -22,7 +28,11 @@ export default function FinancePage(){
                 <CardTotal transactions={transactions}/>
             </div>
             <div className="caixa2">
-                <TransactionList transactions={transactions}/>
+                <TransactionFilter 
+                    setFilter={setFilter} 
+                />
+
+                <TransactionList transactions={transactions} filter={filter} removeTransaction={removeTransaction}/>
             </div>
         </div>
     )

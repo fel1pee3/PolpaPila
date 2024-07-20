@@ -1,0 +1,53 @@
+.transactionList{
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.listaFinances{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.listaFinances li{
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #13b45913;
+    border-radius: 10px;
+}
+
+.p1{
+    width: 40%;
+}
+
+.p2{
+    width: 30%;
+}
+
+.p3{
+    width: 15%;
+}
+
+.p4{
+    width: 15%;
+}
+
+.up{
+    color: green;
+}
+
+.down{
+    color: red;
+}
+
+.p4{
+    color: red;
+}
+
+.p4:hover{
+    transform: scale(1.05);
+    color: red;
+}

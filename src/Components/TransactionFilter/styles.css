@@ -1,0 +1,33 @@
+.transactionFilter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.transactionFilter h1{
+    font-size: 1.8em;
+}
+
+.btnsFilter{
+    display: flex;
+    gap: 10px;
+}
+
+.btnsFilter button{
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--color1);
+    opacity: 95%;
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.btnsFilter button:hover{
+    opacity: 100%;
+    transform: scale(1.05);
+}
