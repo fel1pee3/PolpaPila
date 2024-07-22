@@ -19,3 +19,19 @@
 .cardTotal div span{
     font-size: 1.3em;
 }
+
+@media (max-width: 999px){
+    .cardTotal div h1{
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 750px) {
+    .cardTotal div h1{
+        font-size: 1.6em;
+    }
+    
+    .cardTotal div span{
+        font-size: 1.1em;
+    }
+}

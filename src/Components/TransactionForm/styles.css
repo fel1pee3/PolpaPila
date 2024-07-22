@@ -55,3 +55,17 @@
     transform: scale(1.05);
     opacity: 100%;
 }
+
+@media (max-width: 750px) {    
+    .form label{
+        font-size: 1.1em;
+    }
+    
+    .caixaINumber{
+        width: 55%;
+    }
+    
+    .caixaISelect{
+        width: calc(100% - 55%);
+    }
+}

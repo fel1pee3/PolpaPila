@@ -31,3 +31,18 @@
     opacity: 100%;
     transform: scale(1.05);
 }
+
+@media (max-width: 750px) {
+    .transactionFilter{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .transactionFilter h1{
+        font-size: 1.4em;
+    }
+    
+    .btnsFilter button{
+        font-size: 1em;
+    }
+}
