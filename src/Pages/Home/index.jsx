@@ -8,7 +8,7 @@ import TransactionFilter from "../../Components/TransactionFilter"
 
 import "./styles.css" 
 
-export default function FinancePage(){
+export default function Home(){
 
     const [transactions, setTransactions] = useState([]);
     const [filter, setFilter] = useState('all');

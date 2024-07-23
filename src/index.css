@@ -4,6 +4,24 @@
   --white: #fafafa;
 }
 
+html{
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;          
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--white);       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color1);
+  border: 2px solid var(--white);
+}
+
 *{
   margin: 0;
   padding: 0;

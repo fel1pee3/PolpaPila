@@ -1,11 +1,18 @@
+import { Outlet } from 'react-router-dom'
+
 import Header from './Components/Header'
-import FinancePage from './Pages/FinancePage'
+import NavRoutes from './Components/NavRoutes'
+
+import "./App.css"
 
 export default function App() {
   return (
     <div className='app'>
       <Header />
-      <FinancePage />
+      <div className='navRoutes'>
+        <NavRoutes />
+        <Outlet />
+      </div>
     </div>
   )
 }
