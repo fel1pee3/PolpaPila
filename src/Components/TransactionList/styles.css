@@ -1,6 +1,7 @@
 .transactionList{
     background-color: var(--white);
     padding: 20px;
+    margin-bottom: 30px;
     border-radius: 10px;
 }
 
