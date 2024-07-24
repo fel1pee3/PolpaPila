@@ -53,11 +53,11 @@
         width: 100%;
         flex-direction: column;
         gap: 0px;
-        font-size: 1em;
+        font-size: .6em;
         padding: 3px;
     }
     
     .iconNav{
-        font-size: 1em;
+        font-size: 3em;
     }
 }
