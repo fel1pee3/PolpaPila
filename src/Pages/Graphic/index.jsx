@@ -1,9 +1,12 @@
+import GraphicLine from "../../Components/GraphicLine"
+import GraphicLineradialBar from "../../Components/GraphicLineradialBar"
 import "./styles.css"
 
 export default function Graphic(){
     return(
         <>
-            <h1>graphic</h1>
+            <GraphicLine />
+            <GraphicLineradialBar />
         </>
     )
 }

@@ -1,0 +1,17 @@
+.splashScreen{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color1);
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.splashScreen span{
+    background-color: var(--white);
+    color: var(--color1);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
