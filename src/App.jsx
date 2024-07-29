@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react'
 
-import { Outlet } from 'react-router-dom'
-
 import SplashScreen from './Pages/SplashScreen'
 import Header from './Components/Header'
-import NavRoutes from './Components/NavRoutes'
+import Home from './Pages/Home'
 
 import "./App.css"
 
@@ -32,10 +30,7 @@ export default function App() {
   return (
     <div className='app'>
       <Header />
-      <div className='navRoutes'>
-        <NavRoutes />
-        <Outlet />
-      </div>
+      <Home />
     </div>
   )
 }
